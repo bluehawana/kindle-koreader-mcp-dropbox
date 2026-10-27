@@ -1,0 +1,16 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Device backups: contain Amazon account identifiers from the Kindle
+backup/
+
+# Python / macOS
+__pycache__/
+*.pyc
+.DS_Store
+._*
+
+# Personal reading lists (library contents, third-party buyer names)
+lists/
